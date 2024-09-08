@@ -1,7 +1,10 @@
 /* NAV style stat*/
+.header{
+    background-color: #f5e1d2;
+}
 
 .nav{
-
+    margin: 0 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,5 +33,22 @@
     background-color: orangered;
     color: white;
     border-radius: 5px;
+}
+.btn{
+    background-color: orangered;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    height: 300px;
+    border:1px solid rgb(237, 156, 106);
+    border-radius: 50%;
 }
 
