@@ -51,4 +51,41 @@
     border:1px solid rgb(237, 156, 106);
     border-radius: 50%;
 }
+/*main Section */
+main{
+  max-width: 986px;
+  margin: auto;
+}
+/* About Section*/
+.about{
+    margin-top: 50px;
+    padding:50px 100px 50px 100px;
+    background-color: rgb(240, 229, 203);
+    border: 1px solid;
+    border-radius: 10px;
+   
+}
+.About-title{
+    font-size: 35px;
+    font-weight:700px ;
+    text-align: center;
+}
 
+.about-Discription{
+    text-align: center;
+    font-weight:700px
+    
+}
+.more-info{
+    display: flex;
+    margin-top: 80px;
+    
+}
+.more-info p{
+    justify-content: center;
+    margin: auto;
+    margin-right: 40px;
+}
+.per-info{
+    text-align: center;
+}
