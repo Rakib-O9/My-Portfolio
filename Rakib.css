@@ -1,38 +1,71 @@
 /* NAV style stat*/
-.header{
-    background-color: #f5e1d2;
+
+body{
+    background-image: url(pics/background.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
 }
 
+.header{
+    margin: auto;
+    max-width: 975px;
+    background-size: cover;
+}
+
+
 .nav{
-    margin: 0 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+.menu{
+    margin-left: 200px;
+}
 .nav-Title{
+    color: white;
     font-size: 40px;
     font-weight: 800px;
 }
-.nav> ul{
-    display: flex;
-   align-items: center;
+
+.li-btn{
+    padding: 6px;
+    margin: 6px;
+    border: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+
 }
-.nav> ul> li{
-    list-style: none;
-    margin-right: 40px;
-}
-.nav> ul> li a{
-    color: orangered;
+.li-btn{
+    font-size: 15px;
+    color: white;
     text-decoration: none;
 
 }
-.hire-button{
+.li-btn:hover{
+    border: 1px solid yellow;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgb(255, 242, 0);
+}
+
+.banner{
+    color:white;
+    align-items: normal;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-text{
+    max-width: 600px;
     font-size: 20px;
-    font-weight: 800px;
-    padding: 10px 25px;
-    background-color: orangered;
-    color: white;
-    border-radius: 5px;
+
+}
+.img{
+    align-items:baseline;
+    height: 300px;
+    border:1px solid rgb(237, 156, 106);
+    border-radius: 50%;
+    margin-left: 100px;
 }
 .btn{
     background-color: orangered;
@@ -40,27 +73,43 @@
     color: white;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 20px;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
-    display: flex;
-    justify-content: space-between;
+.icon{
+    margin-top: 30px;
+   display: flex;
+   justify-content: space-between;
+    
 }
-.img{
-    height: 300px;
-    border:1px solid rgb(237, 156, 106);
+.icon i{
+    margin-left: 10px;
+    padding: 10px;
+    color: orangered;
+    border: 1px solid orangered;
     border-radius: 50%;
+}
+.icon i:hover{
+    box-shadow:2px 2px 20px 2px rgb(255, 89, 0);
+    cursor: pointer;
+}
+
+.hr{
+    margin-top: 20px;
+    width: 965px;
+    border: 1px solid;
+    color: orangered;
 }
 /*main Section */
 main{
-  max-width: 986px;
+  max-width: 975px;
   margin: auto;
 }
 /* About Section*/
 .about{
     margin-top: 50px;
     padding:50px 100px 50px 100px;
-    background-color: rgb(240, 229, 203);
+    background-color:rgb(51, 98, 99);
+    color: white;
     border: 1px solid;
     border-radius: 10px;
    
@@ -88,4 +137,42 @@ main{
 }
 .per-info{
     text-align: center;
+}
+
+/* what i do section*/
+.what-I-do{
+    margin-top: 20px;
+    background-color: rgb(12, 46, 48);
+    
+    border: 1px solid yellowgreen;
+    border-radius: 8px;
+}
+.section-TItle{
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+.skills-Container{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+.skill{
+    padding: 5px;
+    border: 1px yellow;
+    border-radius: 8px;
+    background-color:cyan
+}
+.skill img{
+    height: 80px;
+    width: 60px;
+}
+
+.Summary-Title{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
 }
