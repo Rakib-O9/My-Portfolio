@@ -30,7 +30,13 @@ body{
     gap: 50px;
     font-size: 20px;
     list-style: none;
+    border: none;   
+    transition: 0.2s all;
    
+}
+.menu ul li:active{
+    transform: scale(0.8);
+	transition: 0.1s;
 }
 .menu ul li a{
     position: relative;
@@ -41,7 +47,9 @@ body{
     border: 1px solid orangered;
     padding: 5px;
     border-radius: 4px;
+     
 }
+
 
 /* Header start */
 .header{
@@ -197,7 +205,7 @@ main{
 }
 .logo{
     
-    font-size: 80px;
+    font-size: 70px;
     border-radius: 80%;
 
 }
@@ -282,6 +290,17 @@ main{
     font-size: 18px;
     color: rgb(32, 34, 36);
  }
+ #cv-Downlaod{
+    margin-top: 10px;
+    color: rgb(252, 251, 251);
+    background-color: orangered;
+    border: 1px solid wheat;
+    border-radius: 5px; 
+ }
+ #cv-Downlaod:hover{
+    cursor: pointer;
+ }
+ 
 #cv-Downlaod{
 border: none;   
 transition: 0.2s all; 
