@@ -1,59 +1,64 @@
 /* NAV style stat*/
 
 body{
+    /* background-color: rgb(14, 54, 54); */
     background-image: url(pics/background.jpg);
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
 }
-
-.header{
-    margin: auto;
-    max-width: 975px;
-    /* background-image: url(pics/Header-bg2.jpg); */
-    background-size: cover;
-    border-left: 1px solid orangered;
-    border-radius: 10px;
-    padding: 0 10px;
-}
-
-
+/* Nav bar Start */
 .nav{
+    position: fixed;
+    margin-top: -100px;
     display: flex;
     align-items: center;
+    background-color: rgb(165, 205, 207);
+    width: 985px;
+    height: 50px;
+    margin-left: -10px;
     justify-content: space-between;
-}
-.menu{
-    margin-left: 200px;
-}
-.nav-Title{
-    color: white;
-    font-size: 40px;
-    font-weight: 800px;
+    padding: 0px 5px;
+    border-radius: 8px;
 }
 
-.li-btn{
-    padding: 6px;
-    margin: 6px;
-    border: none;
-    border-radius: 3px;
-    background-color: orangered;
-    text-align: center;
-
+.menu ul{
+    display: flex;
+    gap: 0px;
 }
-.li-btn{
-    font-size: 15px;
-    color: white;
+.menu ul li {
+    gap: 50px;
+    font-size: 20px;
+    list-style: none;
+   
+}
+.menu ul li a{
+    position: relative;
     text-decoration: none;
-
+    color: white;
+    margin-left: 20px;
+    background-color: orangered;
+    border: 1px solid orangered;
+    padding: 5px;
+    border-radius: 4px;
 }
-.li-btn:hover{
-    border: 1px solid yellow;
-    cursor: pointer;
-    box-shadow: 2px 2px 5px rgb(255, 242, 0);
-}
 
+/* Header start */
+.header{
+   
+    margin: auto;
+    max-width: 960px;
+    /* background-image: url(pics/Header-bg1.jpg); */
+    /* background-image: url(pics/Header-bg2.jpg); */
+    background-size: cover;
+    border-left:1px solid orangered;
+    border-bottom:1px solid orangered;
+    border-radius: 10px;
+    padding: 0px 10px 20px 10px; 
+}
+/* banner start */
 .banner{
+    margin-top: 100px;
     color:white;
     align-items: normal;
     display: flex;
@@ -81,6 +86,14 @@ body{
     cursor: pointer;
     margin-top: 20px;
 }
+.whats-app-number{
+    color: white;
+    display: none;
+}
+.icon-button{
+    background-color: transparent;
+    visibility:visible;
+}
 .icon{
     margin-top: 30px;
    display: flex;
@@ -98,13 +111,6 @@ body{
     box-shadow:0px 0px 20px 2px rgb(255, 89, 0);
     cursor: pointer;
 }
-
-.hr{
-    margin-top: 20px;
-    width: 965px;
-    border: 1px solid;
-    color: orangered;
-}
 /*main Section */
 main{
   max-width: 975px;
@@ -116,11 +122,13 @@ main{
     padding:50px 100px 50px 100px;
     background-color:rgb(51, 98, 99);
     color: white;
-    border: 1px solid;
-    border-radius: 10px;
+    border-left:1px solid orangered;
+    border-bottom:1px solid orangered;
+    border-radius: 8px;
    
 }
 .About-title{
+    margin-top: 30px;
     font-size: 35px;
     font-weight:700px ;
     text-align: center;
@@ -146,58 +154,87 @@ main{
     text-align: center;
 }
 
-/* what i do section*/
-.what-I-do{
-    margin-top: 20px;
-    background-color: rgb(12, 46, 48);
-    
-    border: 1px solid yellowgreen;
+/* Skills and Training section*/
+.skill-section{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.skilles{
+    margin-top: 60px;
+    border-left:1px solid orangered;
+    border-bottom:1px solid orangered;
     border-radius: 8px;
 }
-.section-TItle{
+.Skill-title{
     color: white;
-    margin-top: 20px;
+    padding-top: 50px;
+    font-size: 35px;
+    font-weight:700px ;
     text-align: center;
 }
 .what-I-Discription{
-    color: rgb(32, 1, 1);
+    color:white;
     text-align: center;
     padding-left: 50px;
     padding-right: 50px;
     font-size: 17px;
     font-weight:900px
 }
-.skills-Container{
-    display: flex;
-    padding: 10px;
-    justify-content: space-around;
-    gap: 20px;
-
-}
 .skill{
-    padding: 5px;
-    border: 1px yellow;
-    border-radius: 8px;
-    background-color:rgb(220, 237, 237)
+   
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
 }
-.skill img{
-    height: 80px;
-    width: 60px;
+.skill-logo{
+   text-align: center;
 }
+.skill-logo i{
+    
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.logo{
+    
+    font-size: 80px;
+    border-radius: 80%;
 
+}
+.skill-detail{
+    margin-top: -20px;
+    
+}
+.skill-detail h2{
+    margin-bottom: 30px;
+}
+.skill-detail p{
+    margin-top: -18px;
+    border: 1px solid;
+    color: rgba(31, 2, 2, 0.973);
+    box-shadow: 2px 0px 30px 0px burlywood;
+    background-color: rgb(215, 227, 227);
+    border-radius: 5px;
+    padding: 5px 5px 10px 5px;
+}
 
  /* Summary of my resume*/
 
  .Summary{
+    margin-top: 50px;
     color: white;
-    border: 1px solid orangered;
-    border-radius: 20px;
-    height: 600px;
+    border-left:1px solid orangered;
+    border-bottom:1px solid orangered;
+    border-radius: 8px;
+    height: 680px;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 20px;
+ }
+ .Summary:hover{
+    background-color: rgb(4, 23, 24);
  }
  .Title{
-    padding-top:30px ;
+    padding-top:50px ;
     text-align: center;
     font-size: 25px;
     font-weight: 700;
@@ -209,7 +246,10 @@ main{
    display: flex;
   justify-content: space-around;
  }
+ /* Education*/
  .Education-Item{
+    width: 400px;
+    height: 130px;
     background-color: rgb(237, 232, 225);
     text-align: left;
     padding: 0 10px;
@@ -222,8 +262,44 @@ main{
     color: rgb(11, 11, 10);
     font-size: 20px;
  }
-.Eduction-discription{
-    color: black;
-    margin-top: -15px;
+ /* training*/
+.Training-Item{
+    width: 400px;
+    height: 130px;
+    background-color: rgb(237, 232, 225);
+    text-align: left;
+    padding: 0 10px;
+    margin-bottom: 15px;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    box-shadow: -5px 5px 50px 0px rgb(255, 81, 0);
+ }
+ .Course-title{
+  color: black;
+ }
+ .Institute{
+    margin-top: -20px;
+    font-size: 18px;
+    color: rgb(32, 34, 36);
+ }
+#cv-Downlaod{
+border: none;   
+transition: 0.2s all; 
+}
+#cv-Downlaod:active {
+	transform: scale(0.8);
+	transition: 0.1s;
+}
+/* Contact icon*/
+.Contact-icon i{
+    margin-left: 10px;
+    padding: 10px;
+    color: orangered;
+    border: 1px solid orangered;
+    border-radius: 50%;
+}
+.Contact-icon i:hover{
+    box-shadow:0px 0px 20px 2px rgb(255, 89, 0);
+    cursor: pointer;
 }
  

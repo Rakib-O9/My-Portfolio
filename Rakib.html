@@ -10,21 +10,30 @@
     <link rel="stylesheet" href="Rakib.css">
 </head>
 <body>
+    
     <header class="header">
-        <nav class="nav">
-            <h3 class="nav-Title"><span style="color:orangered"><u>Portfolio</u></span></h3>
+        <div class="nav">
+            <h3 class="nav-Title"><span style="color:orangered; font-size: 50px; font-weight: bold; position: relative;"><u>Portfolio</u></span></h3>
             <div class="menu">
-                <button class="li-btn">Home</button>
-                <button class="li-btn">About</button>
-                <button class="li-btn">Skill</button>
-                <button class="li-btn">Contact</button>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a class="about" href="#aobut-me">About</a></li>
+                    <li><a class="about" href="#skilles">Skill</a></li>
+                    <li><a class="Summary" href="#summary">Summary</a></li>
+                    <li><a class="Contact-media" href="#Contact-media">Contact</a></li>
+                </ul>
             </div>
-        </nav>
+       </div>
+    </div>
         <div class="banner">
             <div>
                 <h3 class="Banner-Gretting">Asalamualikum,</h3>
-                <h1 class="Banner-Gretting">I'm   Ra<span style="color:orangered">K</span>ib</h1>
-                <p class="banner-text">I am a Font End <span style="color: orangered;">WEB DEVELOPER</span> (fresher). <br>I want to make my career as a skilled web developer. 
+                <h1 class="Banner-Gretting">I'm Ra<span style="color:orangered">K</span>ib</h1>
+                <p class="banner-text">I am a Font End <span style="color: orangered;">WEB DEVELOPER</span> having skill 
+                    of building website, designing and managing with HTML, CSS and JavaScript.
+                    <br>
+                    <br>
+                    I am a fresher and I want to make my career as a skillful web developer. 
                     So, I am looking for an organization,
                     which will help me through a suitable working environment to become a smart worker, 
                     perfect and skilled web developer and a valuable asset to the organization .........</p>
@@ -32,126 +41,156 @@
             </div>
             <img  class="img" src="rakib.jpg">
         </div>
+        <!--contact media-->
+        <div id="phone-Number" style="visibility:hidden ; color: white; font-size: 20px;">01757738737</div>
+        <div id="Contact-mail" style="visibility:hidden;color: white; font-size: 20px;">toshar689@gmail.com</div>
+        <!--contact icon-->
         <div class="icon">
             <div>
-            <i class="fa-brands fa-whatsapp"></i>
-            <i class="fa-brands fa-facebook-f" style=" padding: 12px; width: 15px;"></i>
-            <i class="fa-solid fa-envelope"></i>
+            <i id="phone" class="fa-solid fa-phone" title="click agin"></i>
+            <i id="mail" class="fa-solid fa-envelope" title="click agin"></i>
             </div>
            <div>
-            <button class="btn li-btn">Download CV</button>
-            <button class="btn li-btn">Contact</button>
+            <button class="btn li-btn" id="cv-Downlaod">Download CV</button>
+            <button class="btn" id="cv-Downlaod">Contact</button>
            </div>
-
         </div>
-        <hr class="hr">
     </header>
     
     
     <!-- Main Container Start-->
     <main>
         <!-- about me start-->
-        <section class="about">
-            <h3 class="About-title"> About Me</h3>
+        <section class="about" id="aobut-me">
+            <h3 class="About-title"> <u>About Me</u></h3>
             <p class="about-Discription">
                 I'm Rakibul Islam Rakib. I'm 25 years old. I completed my Graduation from Northern University Bangladesh and my major subject is CSE. My passing year of graduation is 2024 . 
-I work for Excel Technologies Ltd. as a Hardware Engineer from Jun 2019 to till now. <br>But I want to build up my career as a skillful web developer or Software Engineer.
+                I work for Excel Technologies Ltd. as a Hardware Engineer from Jun 2019 to till now. <br>But I want to build up my career as a skillful web developer or Software Engineer.
             </p>
             <div class="more-info">
                 <p class="per-info">Name:<br><span style="font-size: 20px; font-weight: 700px;">Md.Rakibul Islam Rakib</span></p>
                 <p class="per-info">Email:<br><span style="font-size: 20px; font-weight: 600px;">toshar689@gmail.com</span></p>
                 <p class="per-info">Date of Birth:<br><span style="font-size: 20px; font-weight: 600px;">18 March 1999</span></p>
-                <p class="per-info">Nationality:<br><span style="font-size: 20px; font-weight: 600px;">Bangladeshi</span></p>
+                <p class="per-info">From:<br><span style="font-size: 20px; font-weight: 600px;">Dhaka</span></p>
 
             </div>
-            <!-- What i do Start-->
+            
         </section> 
-        <section  class="what-I-do">
-            <h2 class="section-TItle">What I Do</h2>
+        <!-- Skill Section start-->
+        <section  class="skilles" id="skilles">
+            
+            <h1 class="Skill-title"><u>Skill</u></h1>
             <p class="what-I-Discription">
-                I am a fresher Font End developer and I can create, Design and manage website, My skills include coding in HTML, CSS, and JavaScript. And also I'm Learning Python Programming for developing my skill.
-                
+                I am a fresher Font End developer and I can create, Design and manage website, 
+                My skills include coding in HTML, CSS, Bootstrap and JavaScript. And also I'm Learning Python Programming 
+                for developing my skill.   
             </p>
-            <!-- Skill Section -->
-            <div class="skills-Container">
-                <div class="skill">
-                    <img src="pics/html.png" alt="">
-                    <h3 class="skill-name"><span style="color:orangered ;">HTML</span></h3>
-                    <p class="Skill-details">
-                        fnjkbvkfbvkbafvkz vjkasnduiasndkcnsdjkvn  fjbvisfbv hfbvsfjb v vuibv fmv fuiv
+           </div>
+            <!-- Skill description -->
 
-                    </p>
-                </div>
+            <div class="Skill-and-Training">
                 <div class="skill">
-                    <img src="pics/css.png" alt="">
-                    <h3 class="skill-name">CSS</h3>
-                    <p class="Skill-details">
-                        fnjkbvkfbvkbafvkz vjkasnduiasndkcnsdjkvn  fjbvisfbv hfbvsfjb v vuibv fmv fuiv
-
-                    </p>
+                    <div>
+                        <!-- Skill Logos-->
+                        <div class="skill-logo">
+                            <i class="fa-solid fa-code logo" style="color: orangered;box-shadow:2px 0px 50px 0px orangered ;"></i>
+                            <i class="fa-brands fa-css3-alt logo" style="color: rgb(0, 204, 255);box-shadow:2px 0px 50px 0px rgb(0, 204, 255) ;"></i>
+                        </div>
+                        <div class="skill-logo">
+                            <i class="fa-brands fa-bootstrap logo"  style="color: rgb(75, 83, 198);box-shadow:2px 0px 50px 0px rgb(75, 83, 198) ;"></i>
+                            <i class="fa-brands fa-js logo" style="color: yellow; box-shadow:2px 0px 50px 0px yellow"></i>
+                            <i class="fa-brands fa-python logo" style="color: rgb(12, 64, 127);background-color: rgb(252, 252, 252); box-shadow:2px 0px 60px 0px rgb(16, 69, 176)"></i>
+                        </div>
+                    </div>
+                    <!-- Skills-->
+                    <div class="skill-detail">
+                        <h2 style="color: white; text-align: center;"><u>Skills</u></h2>
+                        <p> HTML </p>
+                        <p> CSS </p>
+                        <p> Bootstrap </p>
+                        <p> JavaScript (Basic)</p>
+                        <p> Python Programming (Basic) </p>  
+                    </div>
                 </div>
-                <div class="skill">
-                    <img src="pics/images.png" alt="">
-                    <h3 class="skill-name">BOOTSTARP</h3>
-                    <p class="Skill-details">
-                        fnjkbvkfbvkbafvkz vjkasnduiasndkcnsdjkvn  fjbvisfbv hfbvsfjb v vuibv fmv fuiv
-
-                    </p>
-                </div>
-                <div class="skill">
-                    <img src="pics/js.png" alt="">
-                    <h3 class="skill-name">JS</h3>
-                    <p class="Skill-details">
-                        fnjkbvkfbvkbafvkz vjkasnduiasndkcnsdjkvn  fjbvisfbv hfbvsfjb v vuibv fmv fuiv
-
-                    </p>
-                </div>
-                
             </div>
-
         </section>
         <!-- Summary of my resume-->
         <section>
-            <div class="Summary">
+            <div class="Summary" id="summary">
                 <h3 class="Title"><u>A Summary of My Resume</u></h3>
                 <div class="Summary-discription">
                     <!-- Education Section-->
                     <div>
-                        <h2 class="resume-sub-heading">My Education</h2>
+                        <h2 class="resume-sub-heading"><u>My Education</u></h2>
                         <!-- B.Sc.-->
                         <div class="Education-Item">
                             <h3 class="education-title">B.Sc in Computer Science and Engineering</h3>
-                            <p class="Eduction-discription"><span style="font-size: 18px; font-weight: 700; color: rgb(32, 34, 36);">Institute: Jashimuddin Polytechnic Institute</span>
+                            <p class="Institute"><span style="font-size: 18px; font-weight: 700; color: rgb(32, 34, 36);">University: Northern University Bangladesh </span>
                                 <br>passing Year: 2024
-                                <br> CGPA: 3.20
+                                
                             </p>
                         </div>
                         <!-- Diploma -->
                         <div class="Education-Item">
                             <h3 class="education-title">Diploma in Computer Technology</h3>
-                            <p class="Eduction-discription"><span style="font-size: 18px; font-weight: 700; color: rgb(32, 34, 36);">Institute: Jashimuddin Polytechnic Institute</span>
+                            <p class="Institute"><span style="font-size: 18px; font-weight: 700; color: rgb(32, 34, 36);">Institute: Jashimuddin Polytechnic Institute</span>
                                 <br>passing Year: 2019
-                                <br> CGPA: 3.37
+                                
                             </p>
                         </div>
                         <!--SSC-->
                         <div class="Education-Item">
                             <h3 class="education-title">SSC</h3>
-                            <p class="Eduction-discription"><span style="font-size: 18px; font-weight: 700; color: rgb(32, 34, 36);">Advocate Khalilur Rahman High School</span>
-                                <br>passing Year: 2019
-                                <br> CGPA: 3.37
+                            <p class="Institute"><span style="font-size: 18px; font-weight: 700; color: rgb(32, 34, 36);">Advocate Khalilur Rahman High School</span>
+                                <br>passing Year: 2015
+                            
                             </p>
                         </div>
                     </div>
-                    <!-- Experience-Section -->
+                    <!-- Training-Section -->
                     <div class="Experience-Section">
-                       <h2 class="resume-sub-heading">My Experience</h2>
-                       <h4 class="education Dis"></h4>
+                       <h2 class="resume-sub-heading"><u>Training</u></h2>
+                       <div class="Training-Item">
+                            <h3 class="Course-title">Course Name: Web Design</h3>
+                            <p class="Institute"><span style="font-weight: 700px;">Institute: Dhaka Solution </span>
+                                <br>
+                                Duration: 3 Month
+                                <br>
+                                Subject: HTML, CSS
+                            </p>
+                        </div>
+                        <div class="Training-Item">
+                            <h3 class="Course-title">Course Name: Web Design and Development</h3>
+                            <p class="Institute"><span style="font-weight: 700px;">Institute: Programming Hero</span>
+                                <br>  
+                                Duration: 6h Month<br>
+                                Subject: HTML, CSS, Bootstrap, Tailwind, JavaScript, React.js
+                            </p>
+                        </div>
+                        <div class="Training-Item">
+                            <h3 class="Course-title"> Course Name: Python 101 for Data Science</h3>
+                            <p class="Institute"><span style="font-weight: 700px;">Institute: Cognitive Class.ai  (Online)</span><br>
+                                Subject: Python Programming Basic.
+                            </p>
+                        </div> 
                     </div>
                 </div>
-            </div>
+                <!-- CV Download Button -->
+                <button class="btn" id="cv-Downlaod">Download CV<br><i class="fa-solid fa-download"></i></button>
+             </div>
         </section>
+        <!-- Contact section-->
+         <section class=" Contact-media " id="Contact-media" style="margin-bottom: 30px; text-align: center;">
+            <h2 style="color: white; font-size: 25px;"> <u>Contact With Me</u></h2>
+            <div class="Contact-icon">
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-facebook-f" style=" padding: 12px; width: 15px;"></i>
+                <i class="fa-solid fa-envelope"></i>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+         </section>
 
     </main>
+    <script src="Rakib.js"></script>
 </body>
 </html>
