@@ -1,3 +1,5 @@
+
+//show email ID  when click on mail button
 const mail = document.getElementById('mail').addEventListener('click',function(){
      const mail = document.getElementById('Contact-mail')
     // mail.style.visibility = "visible"
@@ -9,7 +11,8 @@ const mail = document.getElementById('mail').addEventListener('click',function()
     }
 
 })
-// contact-number
+
+// show contact-number when click on contact button
 const Phone = document.getElementById('phone').addEventListener('click',function(){
     const Phone = document.getElementById('phone-Number')
     if(Phone.style.visibility === "hidden"){
