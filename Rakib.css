@@ -1,6 +1,8 @@
 /* NAV style stat*/
 
 body{
+    margin: 0;
+    padding: 0;
     /* background-color: rgb(14, 54, 54); */
     background-image: url(pics/background.jpg);
     background-repeat: no-repeat;
@@ -8,23 +10,28 @@ body{
     background-size: cover;
 }
 /* Nav bar Start */
+
 .nav{
+    /* visibility: hidden; */
     position: fixed;
-    margin-top: -100px;
-    display: flex;
+    top: 0;
+    left: 50%; 
+    transform: translateX(-50%); /*it will take fixed position of navbar when doing zoom in or our*/
+    background-color: cadetblue;
     align-items: center;
-    background-color: rgb(165, 205, 207);
+    display: flex;
+    justify-content: space-around;
     width: 985px;
-    height: 50px;
-    margin-left: -10px;
-    justify-content: space-between;
-    padding: 0px 5px;
-    border-radius: 8px;
+    height: 80px;
+    z-index: 1000; /* Ensures the navbar stays on top of other content */
+    border-radius: 10px;
+    margin-bottom: 50px;
 }
 
 .menu ul{
     display: flex;
-    gap: 0px;
+    padding-right: 10px;
+    
 }
 .menu ul li {
     gap: 50px;
@@ -48,21 +55,19 @@ body{
     padding: 5px;
     border-radius: 4px;
      
-}
+} 
 
 
 /* Header start */
-.header{
-   
-    margin: auto;
+.main{
     max-width: 960px;
+    margin: auto;
     /* background-image: url(pics/Header-bg1.jpg); */
     /* background-image: url(pics/Header-bg2.jpg); */
     background-size: cover;
-    border-left:1px solid orangered;
-    border-bottom:1px solid orangered;
-    border-radius: 10px;
-    padding: 0px 10px 20px 10px; 
+    padding: 0px 10px 20px 10px;  
+    scroll-margin-top: 60px;
+    
 }
 /* banner start */
 .banner{
@@ -72,17 +77,20 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.greeting-for-resposive{
+    display: none;
+}
 .banner-text{
     max-width: 600px;
     font-size: 20px;
 
 }
 .img{
-    align-items:baseline;
+    align-items:left;
     height: 300px;
     border:1px solid rgb(237, 156, 106);
     border-radius: 50%;
-    margin-left: 100px;
+    margin-left: 50px;
 
     box-shadow:0px 0px 50px 20px rgb(54, 85, 90);
 }
@@ -120,13 +128,9 @@ body{
     cursor: pointer;
 }
 /*main Section */
-main{
-  max-width: 975px;
-  margin: auto;
-}
 /* About Section*/
 .about{
-    margin-top: 50px;
+    margin-top: 100px;
     padding:50px 100px 50px 100px;
     background-color:rgb(51, 98, 99);
     color: white;
@@ -324,7 +328,9 @@ transition: 0.2s all;
 /* ............................................... */
 /*   Responsive design started */
 
-@media all and (max-width:450px){
+
+/* nav bar Responsive */
+@media all and (max-width:750px){
     .header{
         margin: auto;
         max-width: 400px;
@@ -338,14 +344,16 @@ transition: 0.2s all;
     }
     .nav{
         position: fixed;
-        margin-top: -100px;
+        margin-top: 0px;
         display:inline-block;
-        /* justify-content:baseline; */
-        /* align-items: center; */
+        top: 0;
+        left: 50%;
+        justify-content:baseline;
+        align-items: center;
         background-color: rgb(2, 63, 70);
         width: 425px;
         height: 110px;
-        /* padding: 0px 5px; */
+        padding: 0px 5px;
         border: 1px yellow solid;
         border-radius: 8px;
     }
@@ -366,6 +374,26 @@ transition: 0.2s all;
         border: none;   
         transition: 0.2s all;
        
+    }
+    .banner{
+        background-color: blueviolet;
+        color:white;
+        /* text-align: center; */
+        display: block;
+        /* justify-content: space-between; */
+    }
+    .Banner-Gretting{
+        display:none; 
+    }
+    .greeting-for-resposive{
+        margin-top: 200px;
+        display: block;
+        }
+    .Banner-Gretting1{
+        margin-top: 20px;
+    }
+    .banner-item{
+        margin-top: 50px;
     }
 }
  
