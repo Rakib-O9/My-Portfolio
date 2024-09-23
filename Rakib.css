@@ -431,14 +431,15 @@ transition: 0.2s all;
         display: block;
         justify-content:  center;
         padding: 0 2px;
+        margin: auto;
 
     }
     .Education-Item{
-        max-width: 410px;
+       
         padding: 5px;
     }
     .Training-Item{
-        max-width: 410px;
+        
         padding: 5px; 
     }
     .Contact-media{
