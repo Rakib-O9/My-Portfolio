@@ -131,7 +131,7 @@ body{
 /* About Section*/
 .about{
     margin-top: 100px;
-    padding:50px 100px 50px 100px;
+    padding: 10px 50px;
     background-color:rgb(51, 98, 99);
     color: white;
     border-left:1px solid orangered;
@@ -260,7 +260,7 @@ body{
  }
  /* Education*/
  .Education-Item{
-    width: 400px;
+    /* width: 400px; */
     height: 130px;
     background-color: rgb(237, 232, 225);
     text-align: left;
@@ -276,7 +276,7 @@ body{
  }
  /* training*/
 .Training-Item{
-    width: 400px;
+    /* width: 400px; */
     height: 130px;
     background-color: rgb(237, 232, 225);
     text-align: left;
@@ -330,7 +330,7 @@ transition: 0.2s all;
 
 
 /* nav bar Responsive */
-@media all and (max-width:492px){
+@media only screen and (max-width:590px){
     .header{
         margin: auto;
         max-width: 400px;
@@ -360,7 +360,7 @@ transition: 0.2s all;
     }
     .menu ul{
         display: flex;
-        margin-left: -60px;
+        margin-left: -50px;
         margin-top: -20px;
         gap: 0px;
         /* background-color: antiquewhite; */
@@ -414,6 +414,9 @@ transition: 0.2s all;
    .more-info{
        display: block;
    }
+   .more-info p{
+    margin-bottom: 15px;
+   }
 
 /* summary section */
 .Summary{
@@ -430,16 +433,18 @@ transition: 0.2s all;
     .Summary-discription{
         display: block;
         justify-content:  center;
-        padding: 0 2px;
-        margin: auto;
+        padding: 2px;
+        margin: 0 auto;
 
     }
     .Education-Item{
-       
+        max-width: 550px;
+        min-width: 350px;
         padding: 5px;
     }
     .Training-Item{
-        
+        max-width: 550px;
+        min-width: 350px;
         padding: 5px; 
     }
     .Contact-media{
