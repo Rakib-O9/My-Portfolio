@@ -475,9 +475,9 @@ transition: 0.2s all;
 }
 
 /* responsive for max-width: 354px*/ 
-@media screen and (max-width:354px) {
+@media screen and (max-width:360px) {
     .nav{
-        max-width: 340px;
+        max-width: 350px;
      }
      .nav-Title{
          margin-top: -6px;
