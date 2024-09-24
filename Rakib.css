@@ -423,18 +423,13 @@ transition: 0.2s all;
     justify-content: space-around;
 }
 .logo{
-    /* max-width: 10px; */
     font-size: 50px;
     border-radius: 80%;
 
 }
-.skill-detail{
-    /* margin-left: -50px; */
-    
-}
 /* summary section */
-.Summary{
-    max-width: 412px;
+    .Summary{
+    /* max-width: 412px; */
     margin-top: 50px;
     color: white;
     border-left:1px solid orangered;
