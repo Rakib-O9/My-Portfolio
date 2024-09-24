@@ -438,12 +438,12 @@ transition: 0.2s all;
     }
     .Education-Item{
         max-width: 550px;
-        min-width: 350px;
+        /* min-width: 350px; */
         padding: 5px;
     }
     .Training-Item{
         max-width: 550px;
-        min-width: 350px;
+        /* min-width: 350px; */
         padding: 5px; 
     }
     .Contact-media{
