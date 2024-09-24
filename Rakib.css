@@ -331,7 +331,7 @@ transition: 0.2s all;
 
 
 /* nav bar Responsive */
-@media all and (max-width:835px){
+@media screen and (max-width:835px){
     .header{
         margin: auto;
         max-width: 420px;
