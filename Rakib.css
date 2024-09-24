@@ -377,7 +377,7 @@ transition: 0.2s all;
     }
 
     .main{
-        max-width: 412px;
+        max-width: 450px;
         top: 0;
         left: 50%;
     }
@@ -416,7 +416,22 @@ transition: 0.2s all;
    .more-info p{
     margin-bottom: 15px;
    }
+/* Skill */
+.skill{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    /* max-width: 10px; */
+    font-size: 50px;
+    border-radius: 80%;
 
+}
+.skill-detail{
+    /* margin-left: -50px; */
+    
+}
 /* summary section */
 .Summary{
     max-width: 412px;
