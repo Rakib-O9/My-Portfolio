@@ -3,7 +3,6 @@
 body{
     margin: 0;
     padding: 0;
-    /* background-color: rgb(14, 54, 54); */
     background-image: url(pics/background.jpg);
     background-repeat: no-repeat;
     background-position:center;
@@ -178,6 +177,9 @@ body{
     border-bottom:1px solid orangered;
     border-radius: 8px;
 }
+.skilles:hover{
+    background-color: rgb(4, 23, 24);
+}
 .Skill-title{
     color: white;
     padding-top: 50px;
@@ -237,7 +239,6 @@ body{
  /* Summary of my resume*/
 
  .Summary{
-    margin-top: 50px;
     color: white;
     border-left:1px solid orangered;
     border-bottom:1px solid orangered;
@@ -352,7 +353,7 @@ transition: 0.2s all;
        left: 50%; 
        transform: translateX(-50%);
        background-color: rgb(11, 39, 39);
-       max-width: 400px;
+       max-width: 420px;
        display: block;
        border: 1px solid yellow;
        border-radius: 8px;
