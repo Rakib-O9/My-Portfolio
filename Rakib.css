@@ -178,6 +178,8 @@ body{
     border-bottom:1px solid orangered;
     border-radius: 8px;
 }
+.skilles:hover{
+	background-color: rgb(4, 23, 24);
 .Skill-title{
     color: white;
     padding-top: 50px;
@@ -198,9 +200,6 @@ body{
     margin-top: 60px;
     display: flex;
     justify-content: space-evenly;
-}
-.skill:hover{
-    background-color: rgb(4, 23, 24);
 }
 .skill-logo{
    text-align: center;
