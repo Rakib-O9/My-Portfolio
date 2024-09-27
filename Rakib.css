@@ -199,6 +199,9 @@ body{
     display: flex;
     justify-content: space-evenly;
 }
+.skill:hover{
+    background-color: rgb(4, 23, 24);
+}
 .skill-logo{
    text-align: center;
 }
